@@ -3,6 +3,7 @@ import React from 'react';
 import Content from '@/components/Content';
 import Courses from '@/components/courses'
 import Gallery from '@/components/Gallery'
+import About from '@/components/About';
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Content/>
       <Courses/>
       <Gallery/>
+      <About/>
     </main>
   );
 }
