@@ -28,7 +28,8 @@ const News = () => {
               </div>
 
               {/* TEXT SECTION (OVERLAY) */}
-              <div className="bg-white shadow-lg p-6 -mt-4 relative z-20  ">
+              <div className="bg-white shadow-lg p-6 -mt-4 relative z-20 
+               ">
                 <h3 className="text-lg font-semibold mb-2">
                   {item.title}
                 </h3>
