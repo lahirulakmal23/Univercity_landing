@@ -19,7 +19,7 @@ const Gallery = () => {
           {galleryImages.map((item) => (
             <div
               key={item.id}
-              className="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden"
+              className="bg-white shadow hover:shadow-lg transition overflow-hidden"
             >
               {/* Image */}
               <div className="relative h-48">

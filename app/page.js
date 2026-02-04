@@ -4,6 +4,7 @@ import Content from '@/components/Content';
 import Courses from '@/components/courses'
 import Gallery from '@/components/Gallery'
 import About from '@/components/About';
+import News from '@/components/News';
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Courses/>
       <Gallery/>
       <About/>
+      <News/>
     </main>
   );
 }

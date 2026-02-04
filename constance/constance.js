@@ -66,4 +66,64 @@ export const galleryImages = [
   { id: 7, src: "/images/gallery7.jpg", title: "About Gallery", subtitle: "About image 7" },
   { id: 8, src: "/images/gallery8.jpg", title: "About Gallery", subtitle: "About image 8" },
 ];
+export const aboutSections = [
+  {
+    id: 1,
+    title: "Why Choose Dreamer Nihongo Academy to Learn Japanese?",
+    description:
+      "Dreamer Nihongo Academy is the perfect place for beginners and professionals who want to master Japanese with confidence. The academy focuses on clear explanations, step-by-step learning, and practical usage of the language.",
+    points: [
+      "Experienced instructors",
+      "JLPT-focused curriculum",
+      "Beginner-friendly courses with clear explanations",
+    ],
+    image: "/images/about1.jpg",
+    reverse: false,
+  },
+  {
+    id: 2,
+    title:
+      "Learn Japanese with Confidence and Clarity | Dreamer Nihongo Academy",
+    description:
+      "At Dreamer Nihongo Academy, learning Japanese becomes simple and effective. Courses are designed to improve speaking, listening, reading, and writing skills through real-life examples.",
+    points: [
+      "Speaking-focused learning",
+      "JLPT & SSW preparation",
+      "Career guidance",
+    ],
+    image: "/images/about2.jpg",
+    reverse: true,
+  },
+  {
+    id: 3,
+    title: "What Makes Us Different?",
+    description:
+      "We blend discipline, encouragement, and modern teaching methods for long-term success.",
+    points: [
+      "Modern classrooms",
+      "Interactive activities",
+      "Personalized feedback",
+    ],
+    image: "/images/about3.jpg",
+    reverse: false,
+  },
+];
+export const newsData = [
+  {
+    id: 1,
+    title: "New Year Celebration 2025",
+    date: "January 1, 2025",
+    description:
+      "Celebrate the arrival of 2025 with cultural performances, traditional food, and joyful gatherings at Dreamer Nihongo Academy.",
+    image: "/images/about1.jpg",
+  },
+  {
+    id: 2,
+    title: "Tanabata (Star Festival)",
+    date: "July 7, 2025",
+    description:
+      "Students enjoyed the beautiful Tanabata festival by writing wishes on tanzaku and learning about Japanese traditions.",
+    image: "/images/about2.jpg",
+  },
+];
 
