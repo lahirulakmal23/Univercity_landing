@@ -19,11 +19,11 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white dark:bg-[#1d1836] shadow z-50 mb-">
+    <nav className="fixed top-0 left-0 w-full bg-white  shadow z-50 ">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="text-xl font-bold">
-          Lahiru.dev
+          London Uni
         </Link>
 
         {/* Desktop Menu */}

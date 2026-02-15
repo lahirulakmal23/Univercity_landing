@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { popularCourses, jlptLevels } from "../constance/constance.js";
+import { popularCourses, jlptLevels } from "../../constance/constance";
 
 const PopularCourses = () => {
   return (
@@ -18,7 +18,7 @@ const PopularCourses = () => {
           {popularCourses.map((course) => (
             <div
               key={course.id}
-              className="bg-white  overflow-hidden shadow hover:shadow-lg transition"
+              className="bg-gray-100  overflow-hidden shadow hover:shadow-lg transition"
             >
               <div className="relative h-55">
                 <Image
@@ -53,7 +53,7 @@ const PopularCourses = () => {
         {/* BOTTOM GRID */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {/* LEFT RED CARD */}
-          <div className="md:col-span-1 bg-red-600 text-white p-8  flex flex-col justify-between">
+          <div className="md:col-span-1 bg-red-600 text-white p-8  flex flex-col justify-between ">
             <div>
               <h3 className="text-2xl font-bold mb-4">
                 Blossom into fluency with JLPT and SSW courses
@@ -72,13 +72,13 @@ const PopularCourses = () => {
           </div>
 
           {/* RIGHT JLPT LEVELS */}
-          <div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-12 mt-10 ">
+          <div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-12 mt-10  ">
             {jlptLevels.map((item) => (
               <div
                 key={item.id}
                 className="bg-white shadow hover:shadow-lg transition overflow-hidden"
               >
-                <div className="relative h-60">
+                <div className="relative h-60 ">
                   <Image
                     src={item.image}
                     alt={item.level}
@@ -96,7 +96,7 @@ const PopularCourses = () => {
                   
                 </div>
 
-                <div className="p-5 text-center">
+                <div className="p-5 text-center bg-gray-100">
                   <h4 className="text-lg font-bold text-red-600">
                     {item.level}
                   </h4>

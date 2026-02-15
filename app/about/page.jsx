@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { CheckCircle } from "lucide-react";
-import { aboutSections } from "../constance/constance.js";
+import { aboutSections } from "../../constance/constance";
 
 const AboutSection = () => {
   return (

@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { useEffect, useRef, useState } from "react";
-import {statData} from "../constance/constance.js"
+import {statData} from "../../constance/constance"
 
 
 

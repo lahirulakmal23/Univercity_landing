@@ -1,10 +1,10 @@
 import Hero from '@/components/Hero';
 import React from 'react';
-import Content from '@/components/Content';
-import Courses from '@/components/courses'
-import Gallery from '@/components/Gallery'
-import About from '@/components/About';
-import News from '@/components/News';
+import Content from '@/app/contact/page';
+import Courses from '@/app/courses/page';
+import Gallery from '@/app/gallery/page';
+import About from '@/app/about/page';
+import News from '@/app/news/page';
 
 
 export default function Home() {

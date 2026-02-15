@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-   <div className=" relative  w-full h-[120vh] sm:h-[100vh]">
+   <div className=" relative  w-full  sm:h-[100vh] overflow-hidden">
     {/* Background Image */}
     <div className="absolute top-0 left-0 w-full h-full   ">  </div>
     <Image
@@ -14,7 +14,7 @@ const Hero = () => {
     <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent"></div>
 
     {/* Overlay Content */}
-    <div className="absolute  z-[100]  w-full h-full top-[50%]  left-[50%] translate-x-[-50%] translate-y-[-20%] ">
+    <div className="absolute  z-10  w-full h-full top-[50%]  left-[50%] translate-x-[-50%] translate-y-[-20%]  ">
       <div className="flex flex-col justify-center items-center text-center px-4 w-full ">
        <div>
          <h1 className="text-4xl sm:text-6xl font-bold text-white drop-shadow-lg">

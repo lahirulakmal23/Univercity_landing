@@ -1,7 +1,5 @@
 import Image from "next/image";
-import {galleryImages} from "../constance/constance.js";
-
-
+import {galleryImages} from "../../constance/constance";
 
 const Gallery = () => {
   return (

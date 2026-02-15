@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { newsData } from "../constance/constance.js";
+import { newsData } from "../../constance/constance";
 
 const News = () => {
   return (
